@@ -1,0 +1,4 @@
+sayilar = ([514, 5400, 54, 45], [3])
+print("sayilar: "+str(sayilar))
+output = tuple(sum(sayilar, []))
+print("yeni sayilar liste : "+str(output))
